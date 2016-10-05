@@ -2,6 +2,10 @@
 
 ### Added
 - Add new `bedrock.util.Config` API. See README for details.
+- Add child(meta) method to loggers that has common metadata. The special
+  `module` key is used to prefix messages with `[module] ` and then removed
+  from the metadata. These adjustments may be removed in the future but are
+  necessary with the current lower level logging mechanisms.
 
 ## 1.2.5 - 2016-07-29
 
